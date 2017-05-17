@@ -72,7 +72,19 @@ So that's the basics of this solution.. Let's get to the details!
 
 ## Installation
 
-TBD
+This module is distributed via [npm][npm] and should be installed as one of your project's `dependencies`:
+
+```
+npm install --save glamorous-native
+```
+
+This also depends on `react` and `react-native`; you likely already have these dependencies since React Native projects are generally [scaffolded](react-native-get-started-scaffold).
+
+From here you can now import this module:
+
+```js
+import glamorous, {ThemeProvider} from 'glamorous-native'
+```
 
 ## Inspiration
 
@@ -103,3 +115,5 @@ This project is in active development approaching completion. Your contributions
 [glamorous]: https://github.com/paypal/glamorous
 [glamorous-readme]: https://github.com/paypal/glamorous#readme
 [intro-blogpost]: https://hackernoon.com/introducing-glamorous-fb3c9f4ed20e
+[npm]: https://www.npmjs.com/
+[react-native-get-started-scaffold]: https://facebook.github.io/react-native/docs/getting-started.html#testing-your-react-native-installation
